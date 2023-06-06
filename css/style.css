@@ -240,6 +240,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-title-color);
+    margin-bottom: 72px;
 }
 
 .staff-list-item {
@@ -255,7 +256,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-title-color);
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .staff-item-text {
@@ -327,15 +328,13 @@ img {
 }
 
 .filter {
-    padding-top: 96px;
-    padding-right: 0;
-    padding-left: 0;
-    padding-left: 120px;
+    padding: 96px 0 120px 0;
 }
 
 .filter .filter-list {
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 72px
 }
 
 
@@ -351,7 +350,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--filter-btn-text-color);
-    border: 1px solid #F4F4FD;
+    border: 1px solid #e7e9fc;
     padding: 12px 24px;
     border-radius: 4px;
 }
@@ -359,6 +358,7 @@ img {
 .filter-btn:is( :focus, :hover, :active) {
     background-color: #404BBF;
     color: #FFFFFF;
+    border: 1px solid transparent;
 }
 
 .page-nav  {
