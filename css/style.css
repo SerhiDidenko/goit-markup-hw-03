@@ -26,6 +26,20 @@ body {
     background-color: #FFFFFF;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .container {
     max-width: 1158px;
     margin-left: auto;
@@ -51,8 +65,9 @@ img {
 
 /*---------- header --------*/
 .header {
-    border-bottom:  1px solid #F4F4FD;
+    border-bottom: 1px solid #e7e9fc
 }
+
 .header .container {
     display: flex;
     flex-direction: row;
@@ -120,6 +135,8 @@ img {
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
+    border: none;
+    background-color: #4d5ae5
 }
 
 .hero-title {
@@ -202,12 +219,17 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-title-color);
+    margin-bottom: 72px;
 }
 
 /*---------- main   section3 --------*/
 .staff {
     background-color: #F4F4FD;
     padding: 120px 0;
+}
+
+.staff-info {
+    padding: 32px 16px;
 }
 
 .staff-title {
@@ -233,6 +255,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-title-color);
+    margin-bottom: 72px;
 }
 
 .staff-item-text {
@@ -265,6 +288,9 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--header-logo-color);
+    display: inline-block;
+    margin-bottom: 16px;
+    
 }
 .footer-logo span {
     color: var(--footer-logo-span-color);
